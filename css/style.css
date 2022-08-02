@@ -36,7 +36,7 @@ header{
 }
 .manu-btn ul li{
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Rubik', sans-serif;
     cursor: pointer;
 }
@@ -48,6 +48,7 @@ header{
 /* ****************************
             home
 *******************************/
+
 .home-info :nth-child(1){
     font-size: 40px;
     font-weight: 800;
@@ -60,12 +61,33 @@ header{
     color: orange;
 }
 .home-info img{
-    width: 20px;
+    width: 25px;
+    margin-right: 2px;
+    
 }
 .buy-btn{
     background-color: lightskyblue;
     padding: 8px 15px;
+    padding-top: 0%;
+    padding-bottom: 17px;
     border: 0;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 10px;  
+    text-align: center;
+}
+.buy-btn img{
+    position: relative;
+    top: 14px;
+    right: 3px;
+}
+.home-main-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+
+}
+model-img img{
+    width: 
 }
